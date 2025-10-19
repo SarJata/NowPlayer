@@ -1,0 +1,16 @@
+#-----------------------------------------------------------------------
+# Recommended Android Studio Ignores (Standard)
+#-----------------------------------------------------------------------
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries/
+.DS_Store
+/build
+.gradle
+.idea/modules.xml
+
+#-----------------------------------------------------------------------
+# Specific Ignores for Your Project (CRITICAL FIX)
+#-----------------------------------------------------------------------
+# This line prevents the large executable from being tracked in the future
+DeploymentPackage/NowPlayerServer/publish/
